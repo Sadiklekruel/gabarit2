@@ -6,7 +6,7 @@
 
 nav {
     background-color: black;
-    height: 30px;
+    height: 40px;
     padding-left: 145.5px;
     padding-top: 10px;
 }
@@ -25,7 +25,7 @@ a.nav {
     margin-right: 15px;
 }
 a#nav {
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
     color: rgb(167, 48, 185);
     margin-right: 15px;
@@ -102,8 +102,11 @@ button {
 
 footer {
   width: 1000px;
-  margin: 70px auto;
+  border-top: solid 1px rgb(212, 212, 212);
+  margin: 0 auto;
+  margin-bottom: 30px;
   text-align: center;
+  padding-top: 20px;
 }
 
 
@@ -122,4 +125,18 @@ ul.pagination li a {
     text-decoration: none;
     transition: background-color .3s;
     border: 1px solid #ddd;
+}
+
+ul.pagination li a:hover {
+  background-color: rgb(56, 106, 208);
+}
+
+ul.pagination li a.selected {
+  background-color: rgb(56, 106, 208);
+}
+
+h5 {
+  font-weight: normal;
+  padding: 30px 0;
+  border-top: solid 1px rgb(212, 212, 212);
 }
