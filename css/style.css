@@ -6,8 +6,9 @@
 
 nav {
     background-color: black;
-    height: 50px;
+    height: 30px;
     padding-left: 145.5px;
+    padding-top: 10px;
 }
 
 ul {
@@ -20,7 +21,13 @@ li {
 
 a.nav {
     text-decoration: none;
-    color: white;
+    color: rgb(167, 48, 185);
+    margin-right: 15px;
+}
+a#nav {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(167, 48, 185);
     margin-right: 15px;
 }
 
@@ -31,11 +38,14 @@ a.nav {
 h1 {
   display: inline-block;
   font-weight: normal;
+  font-size: 30px;
 }
 
 h2 {
   display: inline-block;
   font-weight: normal;
+  font-size: 22px;
+  color: rgb(138, 138, 138);
 }
 
 main {
@@ -53,25 +63,32 @@ section {
 img {
   width: 600px;
   height: 250px;
+  margin: 10px 0;
 }
 
 article {
   vertical-align: top;
   display: inline-block;
+  padding: 20px;
+  margin-top: 25px;
 }
 
 h3 {
   font-weight: normal;
   width: 250px;
+  margin-bottom: 5px;
 }
 
 h4 {
   font-weight: normal;
   width: 250px;
+  margin-bottom: 5px;
 }
 
 p {
-  width: 350px
+  width: 350px;
+  font-size: 13px;
+  margin-bottom: 5px;
 }
 
 button {
@@ -85,7 +102,8 @@ button {
 
 footer {
   width: 1000px;
-  margin: 0 auto;
+  margin: 70px auto;
+  text-align: center;
 }
 
 
